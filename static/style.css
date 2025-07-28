@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    padding: 32px 40px 40px 40px;
+}
+h1 {
+    color: #f76b1c;
+    text-align: center;
+    margin-bottom: 32px;
+    letter-spacing: 2px;
+}
+table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fafafa;
+    margin-bottom: 24px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px 10px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+th {
+    background: #f76b1c;
+    color: #fff;
+    font-weight: 600;
+}
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+tr:hover {
+    background: #ffe0c2;
+}
+.btn {
+    display: inline-block;
+    padding: 7px 18px;
+    border-radius: 6px;
+    background: #f76b1c;
+    color: #fff !important;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin: 0 2px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #ff9a44;
+}
+.add-btn {
+    float: right;
+    margin-bottom: 18px;
+}
+a {
+    color: #f76b1c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
